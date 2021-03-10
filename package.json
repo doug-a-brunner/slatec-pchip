@@ -1,0 +1,23 @@
+{
+    "name": "slatec-pchip",
+    "author": "Doug Brunner",
+    "homepage": "https://github.com/doug-a-brunner/slatec-pchip",
+    "description": "Shape-preserving piecewise cubic Hermite interpolation in pure JS, ported from SLATEC",
+    "license": "MIT",
+    "version": "0.0.1",
+    "main": "dist/index.js",
+    "typings": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/doug-a-brunner/slatec-pchip.git"
+    },
+    "devDependencies": {
+        "typescript": "^4.2.3"
+    },
+    "scripts": {
+        "prepare": "tsc"
+    }
+}
